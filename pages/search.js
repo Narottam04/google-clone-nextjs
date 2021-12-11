@@ -5,7 +5,6 @@ import Response from '../Response'
 import SearchResults from '../components/SearchResults'
 
 function Search({results}) {
-    // console.log(results)
     const router = useRouter()
     return (
         <div>
