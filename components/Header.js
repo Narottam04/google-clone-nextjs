@@ -25,6 +25,7 @@ function Header() {
                     height={40}
                     onClick={()=> router.push('/')}
                     className="cursor-pointer"
+                    alt='google'
                 />
                 <form className='flex px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center flex-grow'>
                     <input ref={searchInputRef} type="text" className='flex-grow w-full focus:outline-none' />
